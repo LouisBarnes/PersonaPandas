@@ -13,9 +13,10 @@ Aspiring to become a full stack developer within web3, I have decided to create 
 Clone the repository and open the folder within Visual Studio Code
 
 Create a .env file in the root folder with the following two lines of code:
-
+```
 URL_ENDPOINT='INSERT URL HERE'
 PRIVATE_KEY=INSERT PRIVATE KEY HERE
+```
 Head over to Infura (register for an account if you have not done so already) https://infura.io/dashboard - Once you can see the dashboard. click CREATE NEW KEY located on the top right of your screen. Once you have a new project you will be presented with network endpoints, be sure to select Gorli under the Ethereum section. Copy the URL and past this within the .env file created earlier.
 
 Open metamask and find the private key to your wallet, enter your private key into the .env file you created earlier.
